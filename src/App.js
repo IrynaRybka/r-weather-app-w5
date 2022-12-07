@@ -7,12 +7,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Kyiv" />
-        <footer>
+        <footer className="creator">
           Coded by Iryna Rybka {" "}
           <a
-            href="https://github.com/IrynaRybka/r-weather-app-w5"
-            target="_blank"
-            rel="noreferrer"
+           className="link"  href="https://github.com/IrynaRybka/r-weather-w4" target="_blank" rel="noreferrer noopener"
           >
             GitHub
           </a>
